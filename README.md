@@ -8,8 +8,9 @@
 
 <!-- - [back-end server url](http://xyz.com) (when applicable) -->
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [front-end application](http://xyz.com) (when applicable)
+<!-- - [ci/cd](http://xyz.com) (GitHub Actions) -->
+
+- [front-end application](https://jolly-allen-9588e2.netlify.app/)
 
 ### Setup
 
@@ -37,10 +38,8 @@
 
 #### `.env` requirements (where applicable)
 
-i.e.
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+- `PORT` - 3000
+- `.env` - REACT_APP_STRIPE_KEY
 
 #### How to initialize/run your application (where applicable)
 

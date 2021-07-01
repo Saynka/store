@@ -8,6 +8,27 @@ import "./index.css";
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import App from "./App";
+import {
+  enable as enableDarkMode,
+  disable as disableDarkMode,
+  auto as followSystemColorScheme,
+  exportGeneratedCSS as collectCSS,
+  isEnabled as isDarkReaderEnabled
+} from 'darkreader';
+enableDarkMode({
+  brightness: 100,
+  contrast: 90,
+  sepia: 10,
+});
+
+disableDarkMode();
+
+followSystemColorScheme();
+
+collectCSS();
+
+isDarkReaderEnabled();
+
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY)
 
 const app = (
