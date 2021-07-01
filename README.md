@@ -43,19 +43,23 @@
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- `npm i`
+- `npm start`
+- `replace REACT_APP_STRIPE_KEY with your own`
 
 #### How to use your library (where applicable)
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- only test is if the page loads
 
-#### UML
+#### References
 
-![UML Example](./reference/uml-1.png)
+- https://www.youtube.com/watch?v=nKyrXWH5XLM
+- https://www.youtube.com/watch?v=0skzNIckrvQ ("parts 1-6")
+- https://github.com/basir/react-shopping-cart
+- https://github.com/sumanchalki/shopping-cart-react-redux
+- https://github.com/collinsNick/React-redux-shopping-web-app
 
 # Getting Started with Create React App
 
