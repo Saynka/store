@@ -14,27 +14,20 @@
 
 ### Setup
 
-- .
+````
   ├── LICENSE
   ├── README.md
+  ├── build
+  ├── docker
+  ├── docker-compose.prod.yaml
+  ├── docker-compose.yaml
+  ├── nginx
+  ├── node_modules
   ├── package-lock.json
   ├── package.json
   ├── public
-  │ ├── favicon.ico
-  │ ├── index.html
-  │ ├── logo192.png
-  │ ├── logo512.png
-  │ ├── manifest.json
-  │ └── robots.txt
-  └── src
-  ├── App.js
-  ├── index.js
-  ├── reportWebVitals.js
-  ├── setupTests.js
-  └── store
-  ├── counter.js
-  ├── index.js
-  └── votes.js
+  └── src ```
+````
 
 #### `.env` requirements (where applicable)
 
@@ -131,3 +124,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```
+
+```
